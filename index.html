@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Glass Effect</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="glass-container">
+        <div class="glass-effect" id="glassEffect"></div>
+        <div class="content">
+            <h1>Glass Effect</h1>
+            <p>CSS backdrop-filter implementation</p>
+        </div>
+    </div>
+    
+    
+    <div class="controls">
+        <div class="control-item">
+            <label>不透明度:</label>
+            <input type="range" id="opacity" min="0" max="50" value="15">
+            <span id="opacityValue">15</span>
+        </div>
+        
+        <div class="control-item">
+            <label>ぼかし:</label>
+            <input type="range" id="blur" min="0" max="50" value="20">
+            <span id="blurValue">20</span>
+        </div>
+        
+        <div class="control-item">
+            <label>境界線:</label>
+            <input type="range" id="border" min="0" max="50" value="20">
+            <span id="borderValue">20</span>
+        </div>
+        
+        <div class="control-item">
+            <label>シャドウ:</label>
+            <input type="range" id="shadow" min="0" max="100" value="30">
+            <span id="shadowValue">30</span>
+        </div>
+        
+        <div class="control-item">
+            <label>ハイライト:</label>
+            <input type="range" id="highlight" min="0" max="100" value="40">
+            <span id="highlightValue">40</span>
+        </div>
+        
+        <div class="presets">
+            <button class="preset-btn" onclick="applyPreset('clear')">クリア</button>
+            <button class="preset-btn" onclick="applyPreset('frosted')">すりガラス</button>
+            <button class="preset-btn" onclick="applyPreset('card')">カード</button>
+            <button class="preset-btn" onclick="applyPreset('modal')">モーダル</button>
+        </div>
+        
+        <button class="copy-button" onclick="copyCSSCode()" id="copyButton">📋 Copy CSS</button>
+    </div>
+</body>
+</html>
