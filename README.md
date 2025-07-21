@@ -14,7 +14,7 @@
 
 ### CSS実装（推奨）
 
-1. (https://hiroghap1.github.io/css-glass-effect/)[Glass Effect] をブラウザで開く
+1. [https://hiroghap1.github.io/css-glass-effect/](Glass Effect)をブラウザで開く
 2. スライダーでエフェクトを調整
 3. 「Copy CSS」ボタンでCSSコードをコピー
 4. あなたのプロジェクトに貼り付け
