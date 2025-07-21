@@ -123,3 +123,7 @@ function updateGlassEffect(opacity, blur, border, shadow, highlight) {
 ## 📄 ライセンス
 
 MIT License - 商用・非商用問わず自由にご利用いただけます。
+
+## 更新履歴
+
+- 2025年7月21日 公開
